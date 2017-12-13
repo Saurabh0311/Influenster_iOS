@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<Login>
+		<Loginbutton><![CDATA[//XCUIElementTypeTextField[@type="XCUIElementTypeTextField"]]]></Loginbutton>
+		<xIDNumber><![CDATA[//XCUIElementTypeTextField[@type="XCUIElementTypeTextField"]]]></xIDNumber>
+	   	<passcodeNumber><![CDATA[//XCUIElementTypeSecureTextField[@value="Password"]]]></passcodeNumber>
+	   	<SignInbtn><![CDATA[//XCUIElementTypeButton[@name="Done"]]]></SignInbtn>
+	<DontUpdate><![CDATA[//XCUIElementTypeButton[@label="Not Now"]]]></DontUpdate>
+	<soundsGood><![CDATA[//XCUIElementTypeButton[@label="Sounds good!"]]]></soundsGood>
+	
+	<Home><![CDATA[//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[1]]]></Home>
+	<Ok><![CDATA[//XCUIElementTypeButton[@label="OK"]]]></Ok>
+	<Allow><![CDATA[//XCUIElementTypeButton[@label="Allow"]]]></Allow>
+	
+	<Setting><![CDATA[//XCUIElementTypeButton[@label="settingsIcon"]]]></Setting>
+		<Logout><![CDATA[//XCUIElementTypeStaticText[@label="Logout"]]]></Logout>
+	
+	<Searchbar><![CDATA[//UIAApplication[1]/UIAWindow[1]/UIATextField[1]/UIATextField[1]]]></Searchbar>
+	
+	<Searchbutton><![CDATA[//UIAApplication[1]/UIAWindow[4]/UIAKeyboard[1]/UIAButton[4]]]></Searchbutton>
+	
+	</Login>
+</Locators>

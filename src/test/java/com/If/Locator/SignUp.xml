@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Locators>
+	<SignUp>
+	    <DontUpdate><![CDATA[//XCUIElementTypeButton[@label="Not Now"]]]></DontUpdate>
+		<SignupBtn><![CDATA[//XCUIElementTypeButton[@label="Create Account"]]]></SignupBtn>
+		<Email><![CDATA[//XCUIElementTypeTextField[@value="Email address"]]]></Email>
+		<Passcode><![CDATA[//XCUIElementTypeTextField[@value="Create Password"]]]></Passcode>
+		<AgreeCheckbox><![CDATA[//XCUIElementTypeStaticText[@label="Continue As Guest"]]]></AgreeCheckbox>
+		
+		<SubmitBtn><![CDATA[//XCUIElementTypeButton[@name="Done"]]]></SubmitBtn>
+		<Ok><![CDATA[//XCUIElementTypeButton[@label="OK"]]]></Ok>
+		<Soundgood><![CDATA[//XCUIElementTypeButton[@label="Sounds good!"]]]></Soundgood>
+		<Skipstep><![CDATA[//XCUIElementTypeButton[@label="Skip this step"]]]></Skipstep>
+		<Notification><![CDATA[//XCUIElementTypeButton[@label="OK"]]]></Notification>
+		<Yes><![CDATA[//XCUIElementTypeButton[@label="Yes, I'm in!"]]]></Yes>
+		<No><![CDATA[//XCUIElementTypeButton[@label="No, I hate products"]]]></No>
+		<Noskip><![CDATA[//XCUIElementTypeButton[@label="YES"]]]></Noskip>
+		
+		<Skipinsta><![CDATA[//XCUIElementTypeButton[@label="Skip"]]]></Skipinsta>
+		<SkipFb><![CDATA[//XCUIElementTypeButton[@label="Skip"]]]></SkipFb>
+		<Doneconnecting><![CDATA[//XCUIElementTypeButton[@label="Done connecting"]]]></Doneconnecting>
+		<Firstname><![CDATA[//XCUIElementTypeTextField[@value="First Name"]]]></Firstname>
+		<Lastname><![CDATA[//XCUIElementTypeTextField[@value="Last Name"]]]></Lastname>
+		<Next><![CDATA[//XCUIElementTypeButton[@label="Next"]]]></Next>
+		<Postalcode><![CDATA[//XCUIElementTypeTextField[@value="Postal Code"]]]></Postalcode>
+		<Nextzip><![CDATA[//XCUIElementTypeButton[@label="Next"]]]></Nextzip>
+		<Skipdob><![CDATA[//XCUIElementTypeButton[@label="Skip"]]]></Skipdob>
+		<Gender><![CDATA[//XCUIElementTypeButton[@label="Male"]]]></Gender>
+		<Nextgender><![CDATA[//XCUIElementTypeButton[@label="Next"]]]></Nextgender>
+		<Allow><![CDATA[//XCUIElementTypeButton[@label="Allow"]]]></Allow>
+		<Nextzip><![CDATA[//XCUIElementTypeButton[@label="Next"]]]></Nextzip>
+		<Setting><![CDATA[//XCUIElementTypeButton[@label="settingsIcon"]]]></Setting>
+		<Logout><![CDATA[//XCUIElementTypeStaticText[@label="Logout"]]]></Logout>
+	</SignUp>
+</Locators>
+
+

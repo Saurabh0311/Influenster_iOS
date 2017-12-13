@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Influenster]" guice-stage="DEVELOPMENT">
+  <test name="TestUserRegistration(failed)">
+    <classes>
+      <class name="com.iOS.Scripts.UserRegistration">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testUserRegistration"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.iOS.Scripts.UserRegistration -->
+    </classes>
+  </test> <!-- TestUserRegistration(failed) -->
+</suite> <!-- Failed suite [Influenster] -->
